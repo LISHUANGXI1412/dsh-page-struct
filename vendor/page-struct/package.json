@@ -1,0 +1,28 @@
+{
+  "name": "page-struct",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Browser page structure layer: render a page, extract tables/shadow DOM/code blocks as a confidence-tagged structured representation for AI agents",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": {
+    ".": "./index.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "cli": "node bin/structure.mjs",
+    "bench": "node bench/run.mjs",
+    "compare": "node tools/compare-live.mjs"
+  },
+  "keywords": [
+    "browser",
+    "structure",
+    "accessibility",
+    "mcp",
+    "cordis",
+    "agent"
+  ],
+  "license": "MIT"
+}

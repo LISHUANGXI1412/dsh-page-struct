@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Page Structure",
+    "description": "Read a page's structured representation (tables, shadow DOM, code blocks, confidence). Read-only; use other tools to operate the page."
+  }
+}

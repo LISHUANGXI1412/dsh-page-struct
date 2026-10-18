@@ -1,0 +1,10 @@
+- insert:
+    - id: page-struct
+      name: dsh-page-struct
+      config:
+        proxy: ''
+        endpoint: cua:dsh-page-struct
+        cuaProfile: dsh-page-struct
+        exe: ''
+        cacheTtlMs: 120000
+        cacheMax: 3

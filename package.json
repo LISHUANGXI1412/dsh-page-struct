@@ -1,0 +1,43 @@
+{
+  "name": "dsh-page-struct",
+  "version": "0.1.2",
+  "description": "Read-only page structure for DSH, attached to the CUA browser: table coordinates, shadow DOM fields, code blocks, and confidence labels.",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "dsh-page-struct contributors",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "browser",
+    "table",
+    "shadow-dom",
+    "page-structure",
+    "agent"
+  ],
+  "os": [
+    "win32"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "vendor/**",
+    "README.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
