@@ -1,6 +1,6 @@
 {
   "name": "dsh-page-struct",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Read-only page structure for DSH, attached to the CUA browser: table coordinates, shadow DOM fields, code blocks, and confidence labels.",
   "type": "module",
   "main": "index.js",
