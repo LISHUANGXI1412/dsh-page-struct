@@ -21,6 +21,10 @@ jobs:
           node-version: 22
           registry-url: 'https://registry.npmjs.org'
 
+      - name: Upgrade npm for trusted publishing
+        shell: cmd
+        run: npm.cmd install -g npm@latest
+
       - name: Validate package
         shell: cmd
         run: |
@@ -29,6 +33,4 @@ jobs:
 
       - name: Publish to npm
         shell: cmd
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npm.cmd publish --access public --provenance
