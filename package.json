@@ -5,6 +5,10 @@
   "type": "module",
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LISHUANGXI1412/dsh-page-struct"
+  },
   "author": "dsh-page-struct contributors",
   "keywords": [
     "dsh",
